@@ -1,0 +1,25 @@
+.container {
+    display: flex;   
+    align-items: center;
+    height: 30px;
+  }
+.content {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  color:black;
+  
+}
+.content:hover{
+color:black;
+text-decoration: underline;
+}
+
+.contentDivider {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  width:10px;
+}
