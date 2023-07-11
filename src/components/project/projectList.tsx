@@ -52,7 +52,7 @@ const ProjectList: React.FC = () => {
         setManagerDeveloperProjectList(managerDeveloperProjects);
         setSubscriberProjectList(subscriberProjects);
       } catch (error) {
-        console.error('Error fetching projects:', error);
+        console.error('Error fetching project List:', error);
         console.log('Mocking data');
         mockFetchProjectList();
       } finally {

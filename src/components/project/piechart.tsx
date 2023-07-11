@@ -20,7 +20,7 @@ const PieChart: React.FC<Props> = ({projectId}) => {
     console.log("PieChart Project id:", projectId.id);
     const fetchData = async () => {
     try {
-      const response = await axios.get(`/api/project/dashboard/${projectId.id}`);
+      const response = await axios.get(`/api/project/dashboard/pieChart/${projectId.id}`);
       const data: LabelNum[] = response.data;
       renderChart(data);
     } catch (error) {
