@@ -1,0 +1,192 @@
+/* 네비게이션 바 */
+
+position: absolute;
+width: 1770px;
+height: 95px;
+left: -10px;
+top: 189px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* 네비게이션 틀 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #D9D9D9;
+
+
+/* 사용자 메뉴 */
+
+position: absolute;
+left: 94.75%;
+right: 2.32%;
+top: 22.11%;
+bottom: 23.16%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.1%;
+bottom: 29.1%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* 사용자 */
+
+position: absolute;
+left: 73.16%;
+right: 2.94%;
+top: 21.05%;
+bottom: 15.79%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* 홈페이지 이름 */
+
+position: absolute;
+left: 6.21%;
+right: 79.6%;
+top: 24.21%;
+bottom: 25.26%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 로고 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 1.92%;
+right: 94.75%;
+top: 21.05%;
+bottom: 16.84%;
+
+background: #B3B3B3;
+mix-blend-mode: normal;
+border: 1px solid #000000;
+
+
+/* 네비게이션 검색 */
+
+position: absolute;
+width: 724px;
+height: 65px;
+left: 523px;
+top: 15px;
+
+
+
+/* 검색 틀 */
+
+position: absolute;
+left: 29.55%;
+right: 29.55%;
+top: 15.79%;
+bottom: 15.79%;
+
+background: #F4F4F4;
+border-radius: 30px;
+
+
+/* 검색 버튼 */
+
+position: absolute;
+left: 30.51%;
+right: 67.18%;
+top: 31.58%;
+bottom: 25.26%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 14.58%;
+top: 12.5%;
+bottom: 14.58%;
+
+background: #000000;
+
+
+/* 검색어를 입력해주세요 */
+
+position: absolute;
+left: 37.4%;
+right: 33.95%;
+top: 33.68%;
+bottom: 34.74%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+/* Rectangle 57 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10.34%;
+bottom: 0%;
+
+background: #D9D9D9;
