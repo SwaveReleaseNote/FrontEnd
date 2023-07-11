@@ -20,9 +20,6 @@ dependencies:
   chart.js:
     specifier: ^4.3.0
     version: 4.3.0
-  pnpm:
-    specifier: ^8.6.6
-    version: 8.6.6
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2264,12 +2261,6 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
     dev: true
-
-  /pnpm@8.6.6:
-    resolution: {integrity: sha512-a51bIJyCmvstgCvsWf6SgZnsXfWmwAW1pHWEaH2gN3vqQGC58yLFL/oKBwcZWH0mjpMzBWRXdS9dLdN6GAK2Rw==}
-    engines: {node: '>=16.14'}
-    hasBin: true
-    dev: false
 
   /popper.js@1.16.1-lts:
     resolution: {integrity: sha512-Kjw8nKRl1m+VrSFCoVGPph93W/qrSO7ZkqPpTf7F4bk/sqcfWK019dWBUpE/fBOsOQY1dks/Bmcbfn1heM/IsA==}
