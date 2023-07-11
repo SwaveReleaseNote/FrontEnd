@@ -1,24 +1,27 @@
-import { useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Test from './pages/test';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Gnb from './components/gnb/gnb.tsx';
+import Project from './pages/project.tsx';
+import SearchResult from './pages/searchResult.tsx'
+import CreateProject from './pages/createProject.tsx'
+import ProjectDashboard from './pages/projectDashboard.tsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='App'>
+    <div className="App">
       <BrowserRouter>
-        <div style={{ width: "100%", minHeight: "100vh", height: "auto" }}>
+        <div style={{width:"100%",minHeight:"100vh",height:"auto"}}>
           <Routes>
-            <Route path="/" element={<Test/>} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/searchResult" element={<SearchResult />} />
+            <Route path="/createProject" element={<CreateProject />} />
+            <Route path="/project/dashboard" element={<ProjectDashboard />} />
           </Routes>
         </div>
+        <Gnb />
+
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

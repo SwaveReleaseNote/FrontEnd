@@ -1,0 +1,18 @@
+/* For Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  width: 0.3em; /* Set desired width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(154, 202, 241); /* Set desired color for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255); /* Set desired color for the scrollbar track */
+}
+
+/* For Firefox */
+ul {
+  scrollbar-width: thin; /* Set desired width of the scrollbar */
+  scrollbar-color: rgb(154, 202, 241) rgb(255, 255, 255); /* Set desired colors for the scrollbar thumb and track */
+}
